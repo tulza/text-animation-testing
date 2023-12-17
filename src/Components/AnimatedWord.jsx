@@ -13,7 +13,7 @@ const AnimatedWord = ({ text, className, variants, stagger }) => {
         ref={ref}
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
-        transition={{ staggerChildren: 0.1 }}
+        transition={{ staggerChildren: stagger }}
       >
         {text.split(" ").map((word, i) => {
           return (
