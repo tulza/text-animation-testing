@@ -21,7 +21,7 @@ const Template = () => {
 
   return (
     <Fragment>
-      <div className="text-4xl">
+      <div className="text-5xl">
         <p className="h-[100vh]">scroll</p>
         <AnimatedWord
           text="Lorem Ipsum
@@ -38,7 +38,7 @@ Lorem ipsum is placeholder text commonly used in the graphic, print, and publish
           variants={defaultAnimation}
           stagger={null}
         />
-        <p className="h-[100vh]"></p>
+        <p className="h-[100vh] flex items-end">Scroll up</p>
       </div>
     </Fragment>
   );
